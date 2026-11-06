@@ -1,0 +1,61 @@
+[
+  {
+    "id": "tv-explorer",
+    "title": "TV Explorer",
+    "category": "React",
+    "number": "01",
+    "tag": "Search \u00b7 Save \u00b7 Discover",
+    "summary": "A TV show search and favourites app with live data and persistent collections.",
+    "tech": [
+      "React",
+      "TVMaze API",
+      "Firebase Firestore"
+    ],
+    "kind": "screen",
+    "purpose": "Find television shows and keep a personal list of favourites.",
+    "features": [
+      "Search shows using the TVMaze API",
+      "Add and remove favourites",
+      "Synchronize favourites through Firestore",
+      "Sort saved shows and remember the theme"
+    ],
+    "process": "I connected an external API to a React interface, then added Firestore to keep favourites available after a refresh. This project helped me understand state, asynchronous requests, and real-time data.",
+    "learning": "Instructor feedback highlighted component organization, search debouncing, and a loading state for favourites as useful next improvements.",
+    "flow": [
+      "Search for a show",
+      "Review the results",
+      "Save a favourite",
+      "Return to the favourites list"
+    ]
+  },
+  {
+    "id": "succulent-shop",
+    "title": "Succulent Pot Shop",
+    "category": "Java",
+    "number": "02",
+    "tag": "Browse \u00b7 Cart \u00b7 Checkout",
+    "summary": "An online shop connecting product discovery, shopping carts, orders, and inventory.",
+    "tech": [
+      "Spring Boot",
+      "Thymeleaf",
+      "Spring Data JPA",
+      "SQL"
+    ],
+    "kind": "plant",
+    "purpose": "Let customers browse succulent pots and place orders, while staff manage products and order status.",
+    "features": [
+      "Browse, search, filter, and paginate products",
+      "Update quantities or remove cart items",
+      "Submit checkout details and create an order",
+      "Manage inventory and order statuses through an admin session"
+    ],
+    "process": "I built the customer shopping flow and the administrator workflow around products, orders, and order items. Connecting order changes to stock updates helped me understand how application layers work together.",
+    "learning": "Instructor feedback identified password security, CSRF protection, flexible image management, and documented test evidence as areas to improve. Payment options were coursework demonstrations rather than a production payment service.",
+    "flow": [
+      "Browse the catalogue",
+      "Add pots to the cart",
+      "Review quantities",
+      "Complete checkout"
+    ]
+  }
+]
